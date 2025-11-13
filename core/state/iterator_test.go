@@ -21,7 +21,7 @@ import (
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

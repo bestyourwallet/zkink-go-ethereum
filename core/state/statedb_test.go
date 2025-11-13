@@ -36,7 +36,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/core/state/snapshot"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
 	"github.com/bestyourwallet/zkink-go-ethereum/trie"
 	"github.com/bestyourwallet/zkink-go-ethereum/trie/trienode"

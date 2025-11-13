@@ -29,7 +29,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/prque"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/metrics"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"

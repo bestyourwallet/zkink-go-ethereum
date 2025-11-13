@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/accounts/keystore"
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/math"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // UIServerAPI implements methods Clef provides for a UI to query, in the bidirectional communication

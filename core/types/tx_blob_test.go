@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/holiman/uint256"
 )
 

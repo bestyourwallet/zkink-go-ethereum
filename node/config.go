@@ -26,7 +26,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p"
 	"github.com/bestyourwallet/zkink-go-ethereum/rpc"

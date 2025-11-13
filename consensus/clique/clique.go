@@ -36,7 +36,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/consensus/misc/eip1559"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/state"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"

@@ -40,7 +40,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/accounts"
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/math"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

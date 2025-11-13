@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"
 	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
 	"github.com/holiman/uint256"

@@ -26,7 +26,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/txpool"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 )
 

@@ -22,7 +22,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/math"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/holiman/uint256"
 )

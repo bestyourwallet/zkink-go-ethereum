@@ -26,7 +26,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

@@ -22,7 +22,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum"
 	"github.com/bestyourwallet/zkink-go-ethereum/accounts"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

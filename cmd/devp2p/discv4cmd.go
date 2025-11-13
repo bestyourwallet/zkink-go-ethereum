@@ -27,7 +27,7 @@ import (
 
 	"github.com/bestyourwallet/zkink-go-ethereum/cmd/devp2p/internal/v4test"
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/flags"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/discover"

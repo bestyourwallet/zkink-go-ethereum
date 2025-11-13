@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/core/state"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/eth/tracers/logger"
 	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"

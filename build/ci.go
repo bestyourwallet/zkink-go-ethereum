@@ -56,7 +56,7 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/signify"
+	"github.com/ethereum/go-ethereum/crypto/signify"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/build"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"
 )

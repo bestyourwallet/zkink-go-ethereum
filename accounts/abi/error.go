@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 type Error struct {

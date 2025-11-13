@@ -41,7 +41,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var (

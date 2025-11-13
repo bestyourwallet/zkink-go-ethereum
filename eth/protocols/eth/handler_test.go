@@ -32,7 +32,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/core/txpool/legacypool"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enode"

@@ -41,7 +41,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/ethapi"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/flags"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"

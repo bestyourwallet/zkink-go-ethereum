@@ -34,7 +34,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/state/snapshot"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/flags"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"

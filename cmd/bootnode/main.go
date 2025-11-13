@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/cmd/utils"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/discover"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enode"

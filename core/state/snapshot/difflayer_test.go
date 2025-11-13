@@ -24,7 +24,7 @@ import (
 
 	"github.com/VictoriaMetrics/fastcache"
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/memorydb"
 )
 

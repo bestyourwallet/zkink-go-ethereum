@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/debug"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p"

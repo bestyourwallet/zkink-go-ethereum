@@ -22,7 +22,7 @@ import (
 	"net"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enode"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/rlpx"

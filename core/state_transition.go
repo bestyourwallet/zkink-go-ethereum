@@ -26,7 +26,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"
 	"github.com/holiman/uint256"
 )

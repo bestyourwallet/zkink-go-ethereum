@@ -33,7 +33,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	jsassets "github.com/bestyourwallet/zkink-go-ethereum/eth/tracers/js/internal/tracers"
 )
 

@@ -30,7 +30,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/consensus/misc/eip4844"
 	"github.com/bestyourwallet/zkink-go-ethereum/core"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/bestyourwallet/zkink-go-ethereum/params"
 	"github.com/bestyourwallet/zkink-go-ethereum/rpc"

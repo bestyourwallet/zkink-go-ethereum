@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/bestyourwallet/zkink-go-ethereum/common/mclock"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/discover/v5wire"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enode"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enr"

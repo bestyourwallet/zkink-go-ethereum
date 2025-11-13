@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
 	"github.com/bestyourwallet/zkink-go-ethereum/consensus/clique"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
 	"github.com/bestyourwallet/zkink-go-ethereum/signer/core/apitypes"
 )

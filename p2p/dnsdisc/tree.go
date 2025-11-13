@@ -27,7 +27,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enode"
 	"github.com/bestyourwallet/zkink-go-ethereum/p2p/enr"
 	"github.com/bestyourwallet/zkink-go-ethereum/rlp"

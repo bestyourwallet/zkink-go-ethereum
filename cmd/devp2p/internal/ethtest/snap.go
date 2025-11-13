@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/state"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/eth/protocols/snap"
 	"github.com/bestyourwallet/zkink-go-ethereum/internal/utesting"
 	"github.com/bestyourwallet/zkink-go-ethereum/trie"

@@ -25,7 +25,7 @@ import (
 	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/bestyourwallet/zkink-go-ethereum/core"
 	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
-	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/zkink-go-ethereum/eth"
 	"github.com/bestyourwallet/zkink-go-ethereum/eth/downloader"
 	"github.com/bestyourwallet/zkink-go-ethereum/eth/ethconfig"
