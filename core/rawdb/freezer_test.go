@@ -27,9 +27,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb/ancienttest"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb/ancienttest"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
 	"github.com/stretchr/testify/require"
 )
 

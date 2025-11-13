@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/zkink-go-ethereum/signer/core/apitypes"
 )
 
 func mixAddr(a string) (*common.MixedcaseAddress, error) {

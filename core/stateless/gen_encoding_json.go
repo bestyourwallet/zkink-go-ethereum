@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
 )
 
 var _ = (*extWitnessMarshalling)(nil)

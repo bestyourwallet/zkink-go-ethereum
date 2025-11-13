@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/merkle"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	ctypes "github.com/bestyourwallet/zkink-go-ethereum/core/types"
 )
 
 // HeadInfo represents an unvalidated new head announcement.

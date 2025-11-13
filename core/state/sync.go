@@ -17,11 +17,11 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie"
 )
 
 // NewStateSync creates a new state trie download scheduler.

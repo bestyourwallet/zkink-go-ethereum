@@ -19,12 +19,12 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus/misc/eip4844"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
 	"github.com/holiman/uint256"
 )
 

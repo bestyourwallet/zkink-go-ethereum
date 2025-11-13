@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/lru"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/mclock"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
 )
 
 var (

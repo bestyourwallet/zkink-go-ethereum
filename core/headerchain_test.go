@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus/ethash"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb"
 )
 
 func verifyUnbrokenCanonchain(hc *HeaderChain) error {

@@ -24,14 +24,14 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb"
 )
 
 func TestDeriveSha(t *testing.T) {

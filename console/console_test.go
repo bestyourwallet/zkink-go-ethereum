@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/console/prompt"
+	"github.com/bestyourwallet/zkink-go-ethereum/core"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/ethconfig"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/jsre"
+	"github.com/bestyourwallet/zkink-go-ethereum/miner"
+	"github.com/bestyourwallet/zkink-go-ethereum/node"
 )
 
 const (

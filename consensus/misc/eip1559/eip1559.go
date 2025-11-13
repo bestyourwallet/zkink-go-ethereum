@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/math"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus/misc"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
 )
 
 // VerifyEIP1559Header verifies some header attributes which were changed in EIP-1559,

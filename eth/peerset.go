@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/eth/protocols/snap"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/protocols/eth"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/protocols/snap"
+	"github.com/bestyourwallet/zkink-go-ethereum/p2p"
 )
 
 var (

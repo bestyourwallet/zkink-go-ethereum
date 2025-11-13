@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
 )
 
 const DepositTxType = 0xFF

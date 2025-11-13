@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/bestyourwallet/zkink-go-ethereum/cmd/utils"
+	"github.com/bestyourwallet/zkink-go-ethereum/console"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

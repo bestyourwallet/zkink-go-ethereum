@@ -19,16 +19,16 @@ package blsync
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/api"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/light"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/light/api"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/light/request"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/light/sync"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/cmd/utils"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/mclock"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/memorydb"
+	"github.com/bestyourwallet/zkink-go-ethereum/event"
+	"github.com/bestyourwallet/zkink-go-ethereum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

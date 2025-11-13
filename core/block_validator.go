@@ -20,13 +20,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/consensus"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/state"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/stateless"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

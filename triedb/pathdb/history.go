@@ -24,11 +24,11 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/triestate"
 	"golang.org/x/exp/maps"
 )
 

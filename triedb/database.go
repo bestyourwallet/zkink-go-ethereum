@@ -19,15 +19,15 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/trienode"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/triestate"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb/database"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb/hashdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

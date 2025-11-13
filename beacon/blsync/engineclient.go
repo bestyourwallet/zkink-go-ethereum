@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/engine"
+	"github.com/bestyourwallet/zkink-go-ethereum/beacon/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	ctypes "github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/rpc"
 )
 
 type engineClient struct {

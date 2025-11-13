@@ -21,13 +21,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	cmath "github.com/bestyourwallet/zkink-go-ethereum/common/math"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/vm"
+	"github.com/bestyourwallet/zkink-go-ethereum/crypto/kzg4844"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
 	"github.com/holiman/uint256"
 )
 

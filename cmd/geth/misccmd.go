@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/version"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
 	"github.com/urfave/cli/v2"
 )
 

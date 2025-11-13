@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
 )
 
 // Legacy sync progress definitions

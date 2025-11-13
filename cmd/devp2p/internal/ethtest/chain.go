@@ -31,16 +31,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/hexutil"
+	"github.com/bestyourwallet/zkink-go-ethereum/core"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/forkid"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/state"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/protocols/eth"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/rlp"
 )
 
 // Chain is a lightweight blockchain-like store which can read a hivechain

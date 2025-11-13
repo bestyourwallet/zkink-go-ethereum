@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/common/mclock"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/testlog"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
 )
 
 func TestServerPortMapping(t *testing.T) {

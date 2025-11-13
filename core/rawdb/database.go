@@ -25,12 +25,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/leveldb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/memorydb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/pebble"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
 )
 

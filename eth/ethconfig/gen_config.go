@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/txpool/blobpool"
-	"github.com/ethereum/go-ethereum/core/txpool/legacypool"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/txpool/blobpool"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/txpool/legacypool"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/downloader"
+	"github.com/bestyourwallet/zkink-go-ethereum/eth/gasprice"
+	"github.com/bestyourwallet/zkink-go-ethereum/miner"
 )
 
 // MarshalTOML marshals as TOML.

@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )
 

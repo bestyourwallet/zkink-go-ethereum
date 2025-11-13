@@ -24,11 +24,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/ethapi"
+	"github.com/bestyourwallet/zkink-go-ethereum/internal/jsre/deps"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/signer/core"
+	"github.com/bestyourwallet/zkink-go-ethereum/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

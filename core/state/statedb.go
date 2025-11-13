@@ -28,19 +28,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/state/snapshot"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/stateless"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/tracing"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/types"
+	"github.com/bestyourwallet/zkink-go-ethereum/crypto"
+	"github.com/bestyourwallet/zkink-go-ethereum/log"
+	"github.com/bestyourwallet/zkink-go-ethereum/params"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/trienode"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/triestate"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie/utils"
 	"github.com/holiman/uint256"
 	"golang.org/x/sync/errgroup"
 )
@@ -226,7 +226,7 @@ func (s *StateDB) StartPrefetcher(namespace string, witness *stateless.Witness) 
 		//
 		// To prevent this, the account trie is always scheduled for prefetching once
 		// the prefetcher is constructed. For more details, see:
-		// https://github.com/ethereum/go-ethereum/issues/29880
+		// https://github.com/bestyourwallet/zkink-go-ethereum/issues/29880
 		if err := s.prefetcher.prefetch(common.Hash{}, s.originalRoot, common.Address{}, nil, false); err != nil {
 			log.Error("Failed to prefetch account trie", "root", s.originalRoot, "err", err)
 		}

@@ -23,11 +23,11 @@ import (
 	"io"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/bestyourwallet/zkink-go-ethereum/common"
+	"github.com/bestyourwallet/zkink-go-ethereum/core/rawdb"
+	"github.com/bestyourwallet/zkink-go-ethereum/ethdb/memorydb"
+	"github.com/bestyourwallet/zkink-go-ethereum/trie"
+	"github.com/bestyourwallet/zkink-go-ethereum/triedb"
 )
 
 type kv struct {
